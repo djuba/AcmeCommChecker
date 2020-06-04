@@ -46,7 +46,7 @@ export class Home extends Component {
                     </small>
                 </div>
                 <div className="row">
-                    <CommTypeCalendar calendarEvents={this.state.calendarEvents} loading={this.state.loading} />
+                    <CommTypeCalendar calendarEvents={this.state.calendarEvents} />
                 </div>
             </div>
         );
