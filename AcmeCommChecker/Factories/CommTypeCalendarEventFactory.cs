@@ -48,7 +48,7 @@ namespace AcmeCommChecker.Factories
             {
                 commType = CommTypeCalendarEvent.CommType.Phone.ToString();
             }
-            else if (projection.main.temp < 75)
+            else if (projection.main.temp <= 75)
             {
                 commType = CommTypeCalendarEvent.CommType.Email.ToString();
             }
