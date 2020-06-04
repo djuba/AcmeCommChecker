@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
-import { NavMenu } from './NavMenu';
 
 export class About extends Component {
     static displayName = About.name;
